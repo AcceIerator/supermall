@@ -1,10 +1,10 @@
 <template>
   <div class="bottom-bar">
     <div class="check-content">   
-      <check-bottom 
+      <check-button 
                     :is-checked="isSelectAll"
                     class="check-button"
-                    @click.native="checkClick"></check-bottom>
+                    @click.native="checkClick"></check-button>
       <span>全选</span>
     </div>
 

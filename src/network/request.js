@@ -14,6 +14,7 @@ export function request(config) {
   }) 
   // 请求拦截
   instance.interceptors.response.use(res => {
+    // console.log(res.data)
     return res.data
     // 返回一个data就行了 接着在main的then位置处理 在这里相当于做了一个提取data的转化
   }, err => {
